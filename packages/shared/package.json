@@ -1,0 +1,12 @@
+{
+  "name": "@kepler-test-task/shared",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist --declaration",
+    "ts-check": "tsc --noEmit"
+  }
+}

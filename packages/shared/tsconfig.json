@@ -1,0 +1,7 @@
+{
+  "extends": "@kepler-test-task/typescript-config/tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+  },
+}

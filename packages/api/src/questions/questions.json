@@ -1,0 +1,44 @@
+[
+  {
+    "type": "INPUT",
+    "question": "What is your name?"
+  },
+  {
+    "type": "MULTI_CHOICE",
+    "question": "What are your favorite colors?",
+    "options": [
+      { "label": "Red", "value": "red" },
+      { "label": "Blue", "value": "blue" },
+      { "label": "Green", "value": "green" },
+      { "label": "Yellow", "value": "yellow" }
+    ]
+  },
+  {
+    "type": "MULTI_CHOICE",
+    "question": "What fruits do you like?",
+    "options": [
+      { "label": "Apple", "value": "apple" },
+      { "label": "Banana", "value": "banana" },
+      { "label": "Orange", "value": "orange" },
+      { "label": "Grapes", "value": "grapes" }
+    ]
+  },
+  {
+    "type": "NUMERIC",
+    "question": "How many pets do you have?"
+  },
+  {
+    "type": "SINGLE_CHOICE",
+    "question": "What is your favorite season?",
+    "options": [
+      { "label": "Spring", "value": "spring" },
+      { "label": "Summer", "value": "summer" },
+      { "label": "Autumn", "value": "autumn" },
+      { "label": "Winter", "value": "winter" }
+    ]
+  },
+  {
+    "type": "NUMERIC",
+    "question": "How many countries have you visited?"
+  }
+]

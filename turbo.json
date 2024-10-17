@@ -1,0 +1,15 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "ts-check": {},
+    "start": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["@kepler-test-task/shared#build", "migration:run"]
+    },
+    "migration:run": {},
+    "@kepler-test-task/shared#build": {
+      "outputs": ["dist/index.d.ts", "dist/index.js"]
+    }
+  }
+}

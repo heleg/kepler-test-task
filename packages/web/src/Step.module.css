@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid var(--pico-primary-border);
+}
+
+.active {
+  background-color: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+}
+
+.completed {
+  background-color: var(--pico-secondary-background);
+  color: var(--pico-secondary-inverse);
+}
+
+.inactive {
+  background-color: transparent;
+}
